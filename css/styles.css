@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(67, 67, 67);
+}
+
+.ejercicio {
+    margin: 70px;
+}
+
+.box {
+    display: inline-block;
+    width: 200px;
+    height: 130px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-bottom: 70px;
+}
+
+.box-1 {
+    background-image: radial-gradient(45px, red 45px, white 45px 100px);
+}
+
+.box-2 {
+    background-image: radial-gradient(45px at 70px 65px, yellow 70px, lightblue 70px);
+}
+
+.box-3 {
+    background-image: radial-gradient(45px, white 30px, transparent 30px), linear-gradient(red 25%, darkblue 25% 75%, red 75%);
+}
+
+.arcoiris {
+    width: 600px;
+    height: 300px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    background-image: radial-gradient(600px at 300px 300px, transparent 50px, red 50px 75px, orange 75px 100px, yellow 100px 125px, lime 125px 150px, blue 150px 175px, purple 175px 200px, pink 200px 225px, transparent 225px);
+}
